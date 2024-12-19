@@ -1,1 +1,1 @@
-# Analytsics_visualization
+This repository contains python code that performs analysis on the data fetched by forming an API connection on unstructured data type XML from : https://data.cityofchicago.org/api/views/7ce8-bpr6/rows.xml?accessType=DOWNLOAD
