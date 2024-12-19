@@ -1,0 +1,12 @@
+
+version: '3.9'
+services:
+  postgres:
+    image: postgres
+    container_name: postgres_cont_2
+    environment:
+      POSTGRES_USER: dap_user
+      POSTGRES_PASSWORD: Mypostgresql
+      POSTGRES_DB: xml_postgres2
+    ports:
+      - "5433:5432"  # Host:Container port mapping
